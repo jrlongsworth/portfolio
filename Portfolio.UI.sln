@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portfolio.UI", "Portfolio.UI\Portfolio.UI.csproj", "{21CD0971-992A-4FA5-8639-E818695D26E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portfolio.UI", "UI\Portfolio.UI.csproj", "{21CD0971-992A-4FA5-8639-E818695D26E1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{AC515554-E68A-4D20-AE55-FA4F52014C6A}"
 	ProjectSection(SolutionItems) = preProject
