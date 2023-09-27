@@ -2,20 +2,26 @@
 
 <PageTitle>Home</PageTitle>
 
-<h1>Jeff Longsworth</h1>
-<h3>Software Engineer</h3>
 
-<MudImage Src="images/homePhoto.jpg" Width="666" Height="500" Alt="My son Jacob and I" Elevation="25" Class="rounded-lg" />
-<br />
-Welcome to my career portfolio!
-<br />
-<p>
-    The website is in a very blank state right now as I begin to design and develop it.
-    I plan to add sample code, my software credentials, links to sites I find useful, and
-    blog entries where I discuss my philosophies regarding software development and best
-    practices.
-</p>
-<p>
-    In the meantime, I have a skeleton structure designed which you may navigate and my resume which is current as of 9/24/2023.
-    Welcome, and please continue to visit as I develop my portfolio!
-</p>
+<MudCard Elevation="5" Outlined="true">
+    <MudCardHeader>
+        <MudText Typo="Typo.h1">Jeff Longsworth</MudText>
+    </MudCardHeader>
+    <MudText Typo="Typo.h3">Software Engineer</MudText>
+    <MudCardMedia Image="Images/homePhoto.jpg" Height="500" Title="My son Jacob and I" />
+    <MudCardContent>
+        <MudText Typo="Typo.body1">Welcome to my career portfolio!</MudText>
+        <br />
+        <MudText Typo="Typo.body2">
+            The website is in a very blank state right now as I begin to design and develop it.
+            I plan to add sample code, my software credentials, links to sites I find useful, and
+            blog entries where I discuss my philosophies regarding software development and best
+            practices.
+        </MudText>
+        <br/>
+        <MudText Typo="Typo.body2">
+            In the meantime, I have a skeleton structure designed which you may navigate and my resume which is current as of 9/24/2023.
+            Welcome, and please continue to visit as I develop my portfolio!
+        </MudText>
+    </MudCardContent>
+</MudCard>
