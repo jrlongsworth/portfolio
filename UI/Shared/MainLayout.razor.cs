@@ -3,7 +3,7 @@
 public partial class MainLayout
 {
     private MudTheme _theme = default!;
-    private MudThemeProvider _mudThemeProvider = new MudThemeProvider();
+    private MudThemeProvider _mudThemeProvider = new();
     private bool _drawerOpen = true;
     private bool _isDarkMode = false;
     private string _themeIcon = Icons.Material.Filled.LightMode;
@@ -25,7 +25,7 @@ public partial class MainLayout
         StateHasChanged();
     }
 
-    private MudTheme GetMudTheme()
+    private static MudTheme GetMudTheme()
     {
         string primary = "008080";
         string secondary = "#80002A";
