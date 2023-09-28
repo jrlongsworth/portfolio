@@ -12,7 +12,7 @@ sealed public partial class Credentials
 
     protected override void OnInitialized()
     {
-        _images.Add(@"Credentials/IvyTechTcSdev.png");
+        _images.Add(@"Credentials/IvyTechTcSDev.png");
         _images.Add(@"Credentials/SkillSoft.png");
         _images.Add(@"Credentials/TestOut.png");
         _images.Add(@"Credentials/Comptia.png");
